@@ -45,5 +45,4 @@ object RDD_08_sample {
     sc.stop()
 
   }
-
 }

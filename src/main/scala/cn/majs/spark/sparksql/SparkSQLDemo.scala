@@ -11,6 +11,7 @@ import org.apache.spark.sql.SparkSession
  */
 object SparkSQLDemo {
 
+
   def main(args: Array[String]): Unit = {
     //创建上下文环境配置对象
     val conf: SparkConf = new SparkConf().setMaster("local[*]").setAppName("SparkSQLDemo")

@@ -27,11 +27,8 @@ object Demo {
     val flatMapRDD: RDD[String] = textRDD.flatMap(line => line.split("\\s"))
     flatMapRDD.collect()
 
-
     // 关闭连接
     sc.stop()
 
-
   }
-
 }
